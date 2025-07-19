@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/RiturajS12/AI-Assistant/main/Frontend/Graphics/logo.png" alt="Logo" width="120">
   <h1>🤖 AI Assistant</h1>
   <p>
     A powerful and intelligent desktop AI Assistant built with Python.<br>
