@@ -1,30 +1,11 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/RiturajS12/AI-Assistant/main/Frontend/Graphics/logo.png" alt="Logo" width="120">
   <h1>🤖 AI Assistant</h1>
   <p>
     A powerful and intelligent desktop AI Assistant built with Python.<br>
     Featuring real-time voice interaction, smart decision-making, automation, web search, image generation, and more — all in an intuitive GUI.
   </p>
-  <p>
-    <a href="#-key-features"><strong>Explore Features »</strong></a>
-    •
-    <a href="https://github.com/RiturajS12/AI-Assistant/issues">Report Bug</a>
-    •
-    <a href="https://github.com/RiturajS12/AI-Assistant/issues">Request Feature</a>
-  </p>
+
   <br />
-  <img src="https://img.shields.io/github/stars/RiturajS12/AI-Assistant?style=for-the-badge" />
-  <img src="https://img.shields.io/github/forks/RiturajS12/AI-Assistant?style=for-the-badge" />
-  <img src="https://img.shields.io/github/issues/RiturajS12/AI-Assistant?style=for-the-badge" />
-  <img src="https://img.shields.io/github/license/RiturajS12/AI-Assistant?style=for-the-badge" />
-</div>
-
----
-
-## 🎩️ Demo
-
-> *Pro tip: Add a GIF or video demo here to show the assistant in action!*
-
 ---
 
 ## ✨ About The Project
@@ -55,7 +36,6 @@ This assistant uses a smart decision-making engine to route queries efficiently 
 * **SpeechRecognition** – Speech-to-text
 * **pyttsx3** – Text-to-speech
 * **Pillow (PIL)** – Image handling
-* *(Add any other dependencies used in `requirements.txt`)*
 
 ---
 
@@ -63,7 +43,7 @@ This assistant uses a smart decision-making engine to route queries efficiently 
 
 ### 🔧 Prerequisites
 
-* Python 3.8 or above
+* Python 3.10 or above
   Check installation:
 
   ```bash
@@ -75,8 +55,8 @@ This assistant uses a smart decision-making engine to route queries efficiently 
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/RiturajS12/AI-Assistant.git
-   cd AI-Assistant
+   git clone https://github.com/RiturajS12/AI_Assistant.git
+   cd AI_Assistant
    ```
 
 2. **Create & activate a virtual environment**
@@ -156,17 +136,10 @@ If you have ideas or improvements:
 
 ---
 
-## 📜 License
-
-Distributed under the **MIT License**.
-See [`LICENSE`](LICENSE) for more information.
-
----
-
 ## 📭 Contact
 
 **Rituraj Singh**
 GitHub: [@RiturajS12](https://github.com/RiturajS12)
-Project Link: [AI Assistant Repository](https://github.com/RiturajS12/AI-Assistant)
+Project Link: [AI Assistant Repository](https://github.com/RiturajS12/AI_Assistant)
 
 ---
