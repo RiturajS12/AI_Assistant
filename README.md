@@ -1,11 +1,17 @@
 <div align="center">
+  <img src="https://raw.githubusercontent.com/RiturajS12/AI-Assistant/main/Frontend/Graphics/logo.png" alt="Logo" width="120">
   <h1>🤖 AI Assistant</h1>
   <p>
     A powerful and intelligent desktop AI Assistant built with Python.<br>
     Featuring real-time voice interaction, smart decision-making, automation, web search, image generation, and more — all in an intuitive GUI.
   </p>
-
   <br />
+  <img src="https://img.shields.io/github/stars/RiturajS12/AI-Assistant?style=for-the-badge" />
+  <img src="https://img.shields.io/github/forks/RiturajS12/AI-Assistant?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues/RiturajS12/AI-Assistant?style=for-the-badge" />
+  <img src="https://img.shields.io/github/license/RiturajS12/AI-Assistant?style=for-the-badge" />
+</div>
+
 ---
 
 ## ✨ About The Project
@@ -30,12 +36,38 @@ This assistant uses a smart decision-making engine to route queries efficiently 
 
 ## 💪 Built With
 
+Here are the key technologies and libraries that power this assistant:
+
+### 🔹 Core Technologies
+
 * **Python 3.x**
-* **Asyncio**
-* **CustomTkinter** – GUI framework
-* **SpeechRecognition** – Speech-to-text
-* **pyttsx3** – Text-to-speech
-* **Pillow (PIL)** – Image handling
+* **Asyncio** – Asynchronous programming
+* **CustomTkinter** – Modern GUI framework
+
+### 🎙️ Voice & Audio
+
+* **SpeechRecognition** – Convert speech to text
+* **pyttsx3** – Text to speech
+* **edge-tts** – Neural voice TTS
+* **pygame** – Audio playback
+
+### 🖼️ Image & GUI Handling
+
+* **Pillow (PIL)** – Image processing
+* **opencv-python** – Computer vision
+* **PyQt5** – Additional GUI support
+
+### 🌐 Web & Automation
+
+* **selenium**, **webdriver-manager** – Browser automation
+* **googlesearch-python** – Google search integration
+* **requests**, **bs4**, **rich** – Web scraping & formatting
+* **pywhatkit**, **AppOpener**, **keyboard** – Local automation
+
+### 🤖 AI & Language
+
+* **cohere**, **groq**, **mtranslate** – AI APIs and translation
+* **python-dotenv** – Environment configuration
 
 ---
 
@@ -85,9 +117,14 @@ This assistant uses a smart decision-making engine to route queries efficiently 
 
    Create a `.env` file in the root directory:
 
-   ```
-   OPENAI_API_KEY=your_api_key_here
-   ANOTHER_SERVICE_API_KEY=your_other_key
+   ```env
+   CohereAPIKey=your_cohere_key
+   Username=Your Name
+   Assistantname=Assistant Bot
+   GroqAPIKey=your_groq_key
+   InputLanguage=en
+   AssistanceVoice=en-US-EricNeural
+   HuggingFaceAPIKey=your_huggingface_key
    ```
 
 ---
