@@ -6,10 +6,6 @@
     Featuring real-time voice interaction, smart decision-making, automation, web search, image generation, and more — all in an intuitive GUI.
   </p>
   <br />
-  <img src="https://img.shields.io/github/stars/RiturajS12/AI-Assistant?style=for-the-badge" />
-  <img src="https://img.shields.io/github/forks/RiturajS12/AI-Assistant?style=for-the-badge" />
-  <img src="https://img.shields.io/github/issues/RiturajS12/AI-Assistant?style=for-the-badge" />
-  <img src="https://img.shields.io/github/license/RiturajS12/AI-Assistant?style=for-the-badge" />
 </div>
 
 ---
