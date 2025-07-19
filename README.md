@@ -1,162 +1,172 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/RiturajS12/AI-Assistant/main/Frontend/Graphics/logo.png" alt="Logo" width="120">
-<h1 align="center">🤖 AI Assistant 🤖</h1>
-<p align="center">
-A versatile desktop AI assistant with a graphical user interface, featuring real-time conversation, speech synthesis, web search, image generation, and automation capabilities.
-<br />
-<a href="#-key-features"><strong>Explore the features »</strong></a>
-<br />
-<br />
-<a href="https://github.com/RiturajS12/AI-Assistant/issues">Report Bug</a>
-·
-<a href="https://github.com/RiturajS12/AI-Assistant/issues">Request Feature</a>
-</p>
+  <img src="https://raw.githubusercontent.com/RiturajS12/AI-Assistant/main/Frontend/Graphics/logo.png" alt="Logo" width="120">
+  <h1>🤖 AI Assistant</h1>
+  <p>
+    A powerful and intelligent desktop AI Assistant built with Python.<br>
+    Featuring real-time voice interaction, smart decision-making, automation, web search, image generation, and more — all in an intuitive GUI.
+  </p>
+  <p>
+    <a href="#-key-features"><strong>Explore Features »</strong></a>
+    •
+    <a href="https://github.com/RiturajS12/AI-Assistant/issues">Report Bug</a>
+    •
+    <a href="https://github.com/RiturajS12/AI-Assistant/issues">Request Feature</a>
+  </p>
+  <br />
+  <img src="https://img.shields.io/github/stars/RiturajS12/AI-Assistant?style=for-the-badge" />
+  <img src="https://img.shields.io/github/forks/RiturajS12/AI-Assistant?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues/RiturajS12/AI-Assistant?style=for-the-badge" />
+  <img src="https://img.shields.io/github/license/RiturajS12/AI-Assistant?style=for-the-badge" />
 </div>
 
-<!-- Table of Contents -->
+---
 
-<details>
-<summary>Table of Contents</summary>
-<ol>
-<li>
-<a href="#-about-the-project">About The Project</a>
-<ul>
-<li><a href="#-built-with">Built With</a></li>
-</ul>
-</li>
-<li>
-<a href="#-getting-started">Getting Started</a>
-<ul>
-<li><a href="#prerequisites">Prerequisites</a></li>
-<li><a href="#installation">Installation</a></li>
-</ul>
-</li>
-<li><a href="#-usage">Usage</a></li>
-<li><a href="#-project-structure">Project Structure</a></li>
-<li><a href="#-contributing">Contributing</a></li>
-<li><a href="#-license">License</a></li>
-<li><a href="#-contact">Contact</a></li>
-</ol>
-</details>
+## 🎩️ Demo
 
-✨ About The Project
-(Pro-tip: Replace this link with a GIF showing your app in action! It's a great way to showcase your work.)
+> *Pro tip: Add a GIF or video demo here to show the assistant in action!*
 
-This project is a sophisticated AI Assistant built in Python by RiturajS12. It provides a seamless interactive experience through a dedicated graphical user interface (GUI). The assistant is designed to be a multi-purpose tool, capable of understanding voice commands, responding with a synthesized voice, performing real-time searches, generating images based on prompts, and even automating tasks.
+---
 
-At its core, it uses a custom decision-making model to interpret user queries and route them to the appropriate module, whether it's the chatbot, the image generator, or the web search engine.
+## ✨ About The Project
 
-🚀 Key Features
-🗣️ Voice Interaction: Real-time speech-to-text and text-to-speech for hands-free operation.
+**AI Assistant** is a multi-functional desktop assistant developed by [RiturajS12](https://github.com/RiturajS12). It leverages the power of modern AI to understand voice commands, perform web searches, generate images, automate tasks, and carry out natural human-like conversations.
 
-💬 Conversational AI: An integrated chatbot for natural, human-like conversations.
+This assistant uses a smart decision-making engine to route queries efficiently to the appropriate module — whether it's for chatting, searching, or creating AI images.
 
-🌐 Real-time Web Search: Fetches up-to-date information from the internet to answer your questions.
+---
 
-🎨 AI Image Generation: Creates unique images from your text descriptions.
+## 🚀 Key Features
 
-🤖 Task Automation: Capable of performing automated tasks.
+* 🎙️ **Voice Interaction** – Real-time speech recognition and speech synthesis.
+* 💬 **Conversational AI** – Chatbot for human-like conversations.
+* 🌐 **Web Search** – Real-time information retrieval from the internet.
+* 🎨 **AI Image Generation** – Generate images from text prompts.
+* ⚙️ **Task Automation** – Execute predefined automated tasks.
+* 🖥️ **GUI Interface** – A sleek, modern interface powered by `CustomTkinter`.
+* 🧠 **Smart Routing** – Decision-making model to interpret and delegate tasks.
 
-🖥️ Graphical User Interface: A clean and intuitive GUI for easy interaction and visual feedback.
+---
 
-🧠 Smart Decision Making: A multi-layered model to understand intent and delegate tasks effectively.
+## 💪 Built With
 
-🛠️ Built With
-This project leverages the power of modern Python libraries and frameworks.
+* **Python 3.x**
+* **Asyncio**
+* **CustomTkinter** – GUI framework
+* **SpeechRecognition** – Speech-to-text
+* **pyttsx3** – Text-to-speech
+* **Pillow (PIL)** – Image handling
+* *(Add any other dependencies used in `requirements.txt`)*
 
-Python 3.x
+---
 
-Asyncio
+## 🏁 Getting Started
 
-CustomTkinter (for the GUI)
+### 🔧 Prerequisites
 
-SpeechRecognition
+* Python 3.8 or above
+  Check installation:
 
-pyttsx3
+  ```bash
+  python --version
+  ```
 
-Pillow (PIL)
+### 📦 Installation
 
-(Add other key libraries here)
+1. **Clone the repository**
 
-🏁 Getting Started
-Follow these instructions to get a copy of the project up and running on your local machine.
+   ```bash
+   git clone https://github.com/RiturajS12/AI-Assistant.git
+   cd AI-Assistant
+   ```
 
-Prerequisites
-You need to have Python and pip installed on your system.
+2. **Create & activate a virtual environment**
 
-Python 3.8+
+   **Windows:**
 
-python --version
+   ```bash
+   python -m venv venv
+   .\venv\Scripts\activate
+   ```
 
-Installation
-Clone the repository
+   **macOS/Linux:**
 
-git clone https://github.com/RiturajS12/AI-Assistant.git
-cd AI-Assistant
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
 
-Create and activate a virtual environment
+3. **Install dependencies**
 
-On Windows:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-python -m venv venv
-.\venv\Scripts\activate
+4. **Set environment variables**
 
-On macOS/Linux:
+   Create a `.env` file in the root directory:
 
-python3 -m venv venv
-source venv/bin/activate
+   ```
+   OPENAI_API_KEY=your_api_key_here
+   ANOTHER_SERVICE_API_KEY=your_other_key
+   ```
 
-Install the required packages
+---
 
-pip install -r requirements.txt
+## 🎈 Usage
 
-Set up environment variables
+Once set up, run the application:
 
-Create a file named .env in the root directory.
-
-Add the necessary API keys and configuration variables to this file. For example:
-
-OPENAI_API_KEY="your_api_key_here"
-ANOTHER_SERVICE_API_KEY="your_other_key"
-
-🎈 Usage
-Once the installation is complete, you can run the AI Assistant from the root directory:
-
+```bash
 python Main.py
+```
 
-This will launch the GUI. From there, you can interact with the assistant.
+The assistant's GUI will launch. You can now speak commands, chat, and explore all features interactively!
 
-📁 Project Structure
-The project is organized into the following structure:
+---
 
+## 📁 Project Structure
+
+```
 AI-ASSISTANT/
-├── Backend/
-├── Data/
-├── Frontend/
+├── Backend/              # Core processing and logic
+├── Data/                 # Data and resources
+├── Frontend/             # GUI components
 │   ├── GUI.py
-│   └── Graphics/
-├── Main.py
-└── requirements.txt
+│   └── Graphics/         # Logos and images
+├── Main.py               # Entry point
+├── requirements.txt      # Dependencies
+└── .env.example          # Sample environment config
+```
 
-🤝 Contributing
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+---
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+## 🤝 Contributing
 
-Fork the Project
+Contributions are what make the open-source community so great! 🙌
+If you have ideas or improvements:
 
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
+1. **Fork the repository**
+2. **Create your feature branch**
+   `git checkout -b feature/AmazingFeature`
+3. **Commit your changes**
+   `git commit -m 'Add some AmazingFeature'`
+4. **Push to the branch**
+   `git push origin feature/AmazingFeature`
+5. **Open a Pull Request**
 
-Commit your Changes (git commit -m 'Add some AmazingFeature')
+---
 
-Push to the Branch (git push origin feature/AmazingFeature)
+## 📜 License
 
-Open a Pull Request
+Distributed under the **MIT License**.
+See [`LICENSE`](LICENSE) for more information.
 
-📜 License
-Distributed under the MIT License. See LICENSE file for more information.
+---
 
-📧 Contact
-RiturajS12 - @RiturajS12
+## 📭 Contact
 
-Project Link: https://github.com/RiturajS12/AI-Assistant
+**Rituraj Singh**
+GitHub: [@RiturajS12](https://github.com/RiturajS12)
+Project Link: [AI Assistant Repository](https://github.com/RiturajS12/AI-Assistant)
+
+---
